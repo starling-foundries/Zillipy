@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+eth-hash = "==0.2.0"
+fastecdsa = "==1.7.1"
+jsonrpcclient = "==3.3.1"
+protobuf = "==3.7.1"
+pycryptodome = "==3.8.0"
+pyethash = "==0.1.27"
+pytest = "==4.3.1"
+requests = "==2.21.0"
+
+[requires]
+python_version = "3.7"

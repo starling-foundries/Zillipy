@@ -23,6 +23,16 @@ cd pyzil
 pip install -r requirements.txt
 python setup.py install
 ```
+### Common Problem:
+Your system will need to have the gmp dev bundle most appropriate for your OS. for instance:
+
+macOS:
+
+`brew install gmp`
+
+Ubuntu Linux:
+
+`sudo apt-get install libgmp-dev`
 
 ## Usage
 
