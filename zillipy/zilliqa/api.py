@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.zilliqa.api
+zillipy
+.zilliqa.api
 ~~~~~~~~~~~~
 
 Json-RPC interface of Zilliqa APIs.

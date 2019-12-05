@@ -7,9 +7,12 @@ import os
 import json
 import random
 
-from pyzil.common import utils
-from pyzil.crypto import ZilKey
-from pyzil.crypto import schnorr
+from zillipy
+.common import utils
+from zillipy
+.crypto import ZilKey
+from zillipy
+.crypto import schnorr
 
 h2b = utils.hex_str_to_bytes
 b2i = utils.bytes_to_int

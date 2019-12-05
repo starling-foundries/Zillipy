@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.zilliqa.node
+zillipy
+.zilliqa.node
 ~~~~~~~~~~~~
 
 Zilliqa Node API.

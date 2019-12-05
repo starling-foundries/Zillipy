@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 
-from pyzil.zilliqa.units import Zil, Qa
+from zillipy
+.zilliqa.units import Zil, Qa
 
 
 class TestUnits:

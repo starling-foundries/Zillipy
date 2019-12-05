@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.crypto.drbg
+zillipy
+.crypto.drbg
 ~~~~~~~~~~~~
 
 HMAC DRBG implementation of Nist SP 800-90A
@@ -32,7 +33,8 @@ def randbelow_drbg(boundary, nonce=None):
 
     entropy = nonce + secrets.token_bytes(ENTROPY_BYTES)
 
-    drbg = HMAC_DRBG(entropy, personalization_string=b"pyzil_hmac_drbg")
+    drbg = HMAC_DRBG(entropy, personalization_string=b"zillipy
+_hmac_drbg")
     while True:
         rand_bytes = drbg.generate(num_bytes)
         if rand_bytes is None:

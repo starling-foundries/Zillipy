@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.zilliqa.chain
+zillipy
+.zilliqa.chain
 ~~~~~~~~~~~~
 
 Zilliqa Blockchain.
@@ -16,11 +17,16 @@ import time
 import logging
 from typing import Union, Optional
 
-from pyzil.common import utils
-from pyzil.common.local import LocalProxy
-from pyzil.zilliqa.api import ZilliqaAPI, APIError
-from pyzil.crypto.zilkey import is_valid_checksum_address, ZilKey
-from pyzil.zilliqa.proto import messages_pb2 as pb2
+from zillipy
+.common import utils
+from zillipy
+.common.local import LocalProxy
+from zillipy
+.zilliqa.api import ZilliqaAPI, APIError
+from zillipy
+.crypto.zilkey import is_valid_checksum_address, ZilKey
+from zillipy
+.zilliqa.proto import messages_pb2 as pb2
 
 
 class BlockChainError(Exception):

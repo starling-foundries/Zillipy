@@ -1,38 +1,30 @@
-# Zilliqa-Python-Library API
+# A fork of the Zilliqa-Python-Library API
 
-**pyzil** is the Python3 implement of Zilliqa BlockChain API. https://apidocs.zilliqa.com
+This is a fork of the main *pyzil* repository. Intended to test experimental features such as: IPython support, wasmer integration, bouncers, asyncio port and more. The API is unstable and **should not be used in production** without acknowledgement of the risk. 
 
-## Features
 
-* Zilliqa low-level APIs
-* Account and Transaction
-* Zilliqa ethash
-* Smart Contract
+## Desired Improvements
+* [ ] get_contract_substate function
+* [ ] improved errors
+* [ ] dependency-free import
+* [ ] built in RPC implementation
 
-Python 3.6+ on macOS or Linux.
+
+## Requirements
+
+Python 3.7+ on macOS or Linux. Poetry for managing dependencies
 
 ## Install
 
 ```shell
-pip install pyzil
+poetry add [TODO]
 ```
 or from source
 ```shell
-git clone https://github.com/deepgully/pyzil
-cd pyzil
-pip install -r requirements.txt
-python setup.py install
+git clone https://github.com/starling-foundries/zillipy
+cd zillipy
+poetry install
 ```
-### Common Problem:
-Your system will need to have the gmp dev bundle most appropriate for your OS. for instance:
-
-macOS:
-
-`brew install gmp`
-
-Ubuntu Linux:
-
-`sudo apt-get install libgmp-dev`
 
 ## Usage
 

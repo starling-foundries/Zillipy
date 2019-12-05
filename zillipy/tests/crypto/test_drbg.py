@@ -5,8 +5,10 @@
 
 import os
 
-from pyzil.common import utils
-from pyzil.crypto import drbg
+from zillipy
+.common import utils
+from zillipy
+.crypto import drbg
 
 h2b = utils.hex_str_to_bytes
 b2i = utils.bytes_to_int

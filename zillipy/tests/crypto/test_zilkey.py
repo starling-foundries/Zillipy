@@ -8,8 +8,10 @@ import re
 import json
 import pytest
 
-from pyzil.common import utils
-from pyzil import crypto
+from zillipy
+.common import utils
+from zillipy
+ import crypto
 
 
 def path_join(*path):

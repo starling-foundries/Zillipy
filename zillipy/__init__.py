@@ -7,11 +7,14 @@
 Python Library Zilliqa APIs
 ~~~~~~~~~~~~~~~~~~~~~
 
-pyzil is a Python library for Zilliqa APIs ( https://apidocs.zilliqa.com )
+zillipy
+ is a Python library for Zilliqa APIs ( https://apidocs.zilliqa.com )
 usage:
 
-   >>> from pyzil.account import Account
-   >>> from pyzil.zilliqa import chain
+   >>> from zillipy
+.account import Account
+   >>> from zillipy
+.zilliqa import chain
    >>> account = Account(address="b50c2404e699fd985f71b2c3f032059f13d6543b")
    >>> chain.set_active_chain(chain.TestNet)
    >>> account.get_balance()

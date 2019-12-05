@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.common.utils
+zillipy
+.common.utils
 ~~~~~~~~~~~~
 
 common utils

@@ -3,8 +3,10 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 
-from pyzil.common import utils
-from pyzil import pow
+from zillipy
+.common import utils
+from zillipy
+ import pow
 
 
 class TestPoW:

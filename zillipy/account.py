@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.account
+zillipy
+.account
 ~~~~~~~~~~~~
 
 Zilliqa Account
@@ -17,10 +18,14 @@ from collections import namedtuple
 from concurrent import futures
 from concurrent.futures import ThreadPoolExecutor
 
-from pyzil.crypto import zilkey
-from pyzil.zilliqa.api import APIError
-from pyzil.zilliqa.chain import active_chain
-from pyzil.zilliqa.units import Qa, Zil
+from zillipy
+.crypto import zilkey
+from zillipy
+.zilliqa.api import APIError
+from zillipy
+.zilliqa.chain import active_chain
+from zillipy
+.zilliqa.units import Qa, Zil
 
 
 BatchTransfer = namedtuple("BatchTransfer", ["to_addr", "zils"])
@@ -149,7 +154,8 @@ class Account:
         return int(resp["nonce"])
 
     def get_contracts(self) -> List["Contract"]:
-        from pyzil.contract import Contract
+        from zillipy
+.contract import Contract
 
         return Contract.get_contracts(self.address)
 

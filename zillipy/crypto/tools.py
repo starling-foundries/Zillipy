@@ -3,7 +3,7 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.crypto.tools
+zillipy.crypto.tools
 ~~~~~~~~~~~~
 
 crypto tools
@@ -18,7 +18,7 @@ from typing import Union
 
 from Crypto.Cipher import AES
 
-from pyzil.common import utils
+from zillipy.common import utils
 
 
 def hash256_bytes(*bytes_hex, encoding="utf-8") -> bytes:

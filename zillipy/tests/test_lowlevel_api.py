@@ -6,7 +6,8 @@
 import pytest
 
 from pprint import pprint
-from pyzil.zilliqa.api import ZilliqaAPI, APIError
+from zillipy
+.zilliqa.api import ZilliqaAPI, APIError
 
 
 class TestAPI:

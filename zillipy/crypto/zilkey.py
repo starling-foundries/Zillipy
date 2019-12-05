@@ -3,7 +3,7 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.crypto.zilkey
+zillipy.crypto.zilkey
 ~~~~~~~~~~~~
 
 Zilliqa Key
@@ -17,8 +17,8 @@ import uuid
 from typing import Union, Optional
 from collections import namedtuple
 
-from pyzil.common import utils
-from pyzil.crypto import tools, schnorr, bech32
+from zillipy.common import utils
+from zillipy.crypto import tools, schnorr, bech32
 
 
 # zilliqa address takes the last 20 bytes from hash digest of public key

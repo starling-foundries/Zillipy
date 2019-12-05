@@ -3,7 +3,7 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.crypto.schnorr
+zillipy.crypto.schnorr
 ~~~~~~~~~~~~
 
 Zilliqa schnorr signature
@@ -20,7 +20,7 @@ from fastecdsa import keys
 from fastecdsa import point
 from fastecdsa import curve
 
-from pyzil.crypto.drbg import randbelow_drbg
+from zillipy.crypto.drbg import randbelow_drbg
 
 
 CURVE = curve.secp256k1

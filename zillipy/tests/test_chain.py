@@ -6,8 +6,10 @@
 import pytest
 from pprint import pprint
 
-from pyzil.zilliqa import chain
-from pyzil.zilliqa.chain import active_chain
+from zillipy
+.zilliqa import chain
+from zillipy
+.zilliqa.chain import active_chain
 
 
 class TestChain:

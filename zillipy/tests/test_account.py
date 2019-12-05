@@ -7,10 +7,14 @@ import pytest
 import logging
 from pprint import pprint
 
-from pyzil.crypto import zilkey
-from pyzil.zilliqa import chain
-from pyzil.account import Account, BatchTransfer
-from pyzil.zilliqa.units import Zil, Qa
+from zillipy
+.crypto import zilkey
+from zillipy
+.zilliqa import chain
+from zillipy
+.account import Account, BatchTransfer
+from zillipy
+.zilliqa.units import Zil, Qa
 
 
 def path_join(*path):

@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.contract
+zillipy
+.contract
 ~~~~~~~~~~~~
 
 Zilliqa Smart Contract
@@ -16,8 +17,10 @@ import json
 from enum import Enum
 from typing import Dict, List, Optional
 
-from pyzil.crypto import zilkey
-from pyzil.zilliqa.chain import active_chain
+from zillipy
+.crypto import zilkey
+from zillipy
+.zilliqa.chain import active_chain
 
 
 class Contract:

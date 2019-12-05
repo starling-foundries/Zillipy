@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.zilliqa.units
+zillipy
+.zilliqa.units
 ~~~~~~~~~~~~
 
 Zilliqa currencies units.

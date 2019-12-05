@@ -6,9 +6,12 @@
 import pytest
 from pprint import pprint
 
-from pyzil.zilliqa import chain
-from pyzil.account import Account
-from pyzil.contract import Contract
+from zillipy
+.zilliqa import chain
+from zillipy
+.account import Account
+from zillipy
+.contract import Contract
 
 
 def path_join(*path):

@@ -3,7 +3,8 @@
 # Copyright (C) 2019  Gully Chen
 # MIT License
 """
-pyzil.crypto
+zillipy
+.crypto
 ~~~~~~~~~~~~
 
 This module implements the cryptographic methods
