@@ -3,10 +3,11 @@
 name = "zillipy"
 version = "0.1.0"
 description = "Python Library Zilliqa APIs"
-
+authors = [
+    "Cameron Sajedi <cameron@starlingfoundries.com>"
+]
 [tool.poetry.dependencies]
 python = "*"
-eth-hash = "==0.2.0"
 fastecdsa = "==1.7.1"
 jsonrpcclient = "==3.3.1"
 protobuf = "==3.7.1"
