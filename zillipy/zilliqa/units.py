@@ -21,6 +21,9 @@ class Units:
 
 
 class Qa(int):
+    def __str__(self):
+        return str(int(self))
+
     def __repr__(self):
         return "{} Qa".format(int(self))
 
